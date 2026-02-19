@@ -1,0 +1,11 @@
+node_modules/
+.pnpm-store/
+.DS_Store
+*.json
+!package.json
+!package-lock.json
+build/
+dist/
+.env
+.gemini/
+.agents/
