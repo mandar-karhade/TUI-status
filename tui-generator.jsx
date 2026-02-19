@@ -1,13 +1,5 @@
 import { useState, useCallback, useEffect } from "react";
 
-const defaultProjects = [
-  { icon: "✦", name: "DroidForge", tag: "ANDROID", philosophy: "Native device management & automation", progress: 72, stack: "Kotlin · Jetpack · Room", stars: 142, commits: 847, status: "ACTIVE" },
-  { icon: "❖", name: "CloudPulse", tag: "SaaS", philosophy: "Real-time infra monitoring & alerts", progress: 91, stack: "React · Node · Redis", stars: 230, commits: 1203, status: "STABLE" },
-  { icon: "⌬", name: "DataForge", tag: "SaaS", philosophy: "ETL pipeline builder + visual editor", progress: 58, stack: "Python · Airflow · PostgreSQL", stars: 89, commits: 532, status: "BETA" },
-  { icon: "⬢", name: "AuthVault", tag: "SaaS", philosophy: "Identity & access mgmt with SSO", progress: 85, stack: "Go · OAuth2 · JWT", stars: 178, commits: 621, status: "STABLE" },
-  { icon: "⌘", name: "MetricFlow", tag: "SaaS", philosophy: "Analytics platform + report builder", progress: 44, stack: "TypeScript · D3 · ClickHouse", stars: 56, commits: 318, status: "ALPHA" },
-  { icon: "⊕", name: "DeployPilot", tag: "SaaS", philosophy: "CI/CD orchestration & rollbacks", progress: 63, stack: "Rust · Docker · K8s", stars: 112, commits: 489, status: "ACTIVE" },
-];
 
 const defaultConfig = {
   projects: [],
